@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Formato en Tabla</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <table class="cv-table">
+    <tr>
+      <td colspan="2" class="photo-cell">
+        <img src="yo.jpg" alt="Foto de perfil" class="profile-photo" />
+      </td>
+    </tr>
+    <tr>
+      <td class="info-label">Nombre:</td>
+      <td>Jesús Héctor Domínguez Serrano</td>
+    </tr>
+    <tr>
+      <td class="info-label">Carrera:</td>
+      <td>Ingeniería en Tecnologías de Software</td>
+    </tr>
+    <tr>
+      <td class="info-label">Contacto:</td>
+      <td>jesushectord8@gmail.com</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="buttons-cell">
+        <button onclick="goTo('academico.html')">Desempeño Académico</button>
+        <button onclick="goTo('proyectos.html')">Proyectos</button>
+        <button onclick="goTo('laboral.html')">Experiencia Laboral</button>
+        <button onclick="goTo('hobbies.html')">Intereses y Hobbies</button>
+        <button onclick="goTo('idiomas.html')">Idiomas</button>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
